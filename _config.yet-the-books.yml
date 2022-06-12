@@ -19,7 +19,8 @@ footer_link:
   龙泽居士: https://reading.wang/
 
 github:
-  repo: nexmoe/books # nexmoe/books
+  repo: Asxing/reading.wang
+ # nexmoe/books
   edit: true # true,false
   history: true # true,false
 
