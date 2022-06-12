@@ -1,0 +1,49 @@
+favicon:
+  href: https://vip2.loli.io/2022/06/12/WPoBsK4C3SkyY7J.gif # Favicon of your site.
+  type: image/gif # Icon type, possible values are(image/png, image/vnd.microsoft.icon, image/x-icon, image/gif)
+
+search: https://cn.bing.com/search?q= # https://www.google.com/search?q==
+order_by: date # date,-date,title,url,...
+head: '<!--<script src="" async></script>-->' # Add anything to <head></head>
+
+archives:
+  switch: true # true,false Switching this function.
+  categories: [分享,读书时看看镜子,漫步随想,文字,现实与浪漫] # Only the categories you set will be displayed on the archive page.
+
+menu:
+  归档: archives
+  友链: py.html
+  关于: about.html
+
+footer_link:
+  龙泽居士: https://reading.wang/
+
+github:
+  repo: nexmoe/books # nexmoe/books
+  edit: true # true,false
+  history: true # true,false
+
+analytics: # 统计系统，目前支持 Google analytics.js 统计、Google Tag Manager 统计、CNZZ 统计、腾讯统计、51.La统计、百度统计
+  google_site_id: #<ID>
+  gtags_site_id: #<ID>
+  cnzz_site_id: #<ID>
+  tencent_site_id: #<ID>
+  la_site_id: #<ID>
+  baidu_site_id: 41b04999ee3d67f2acc9ce741045e68d
+  gtm_container_id: #<ID>
+
+cdn: # 这里可以修改站点使用的库的CDN
+  disqusjs: 
+    css: https://cdn.jsdelivr.net/npm/disqusjs@1.2.5/dist/disqusjs.min.css
+    js: https://cdn.jsdelivr.net/npm/disqusjs@1.2.5/dist/disqus.min.js
+  gitalk:
+    css: https://cdn.jsdelivr.net/npm/gitalk@1.5.0/dist/gitalk.min.css
+    js: https://cdn.jsdelivr.net/npm/gitalk@1.5.0/dist/gitalk.min.js
+  valine:
+    js: https://cdn.jsdelivr.net/npm/valine
+
+comment: valine # 评论框，目前支持 gitalk,gitment,valine,disqus,disqusjs,changyan,livere,DiscussBot,utteranc,giscuss 使用 false 可以关闭
+
+valine: 
+  appId: Nld0Rpj7oHHn9JP9dvUEo4BV-gzGzoHsz # leancloud application app id
+  appKey: LCn78r4W79yuqJYBfd630HJo # leancloud application app key
